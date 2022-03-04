@@ -4,13 +4,13 @@ import { resolve } from 'path';
 import { promises as fs } from 'fs';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyAKMrhQJ8Y25wNiyXsiNW6NqPpyX995_So',
-  authDomain: 'daoservices.firebaseapp.com',
+  apiKey: '',
+  authDomain: '',
   projectId: 'daoservices',
   storageBucket: 'daoservices.appspot.com',
-  messagingSenderId: '253625255029',
-  appId: '1:253625255029:web:4533f1cb91c4245ee8e43c',
-  measurementId: 'G-HVT74DS54Y',
+  messagingSenderId: '',
+  appId: '',
+  measurementId: '',
 };
 
 const app = initializeApp(firebaseConfig);
